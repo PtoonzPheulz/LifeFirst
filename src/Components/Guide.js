@@ -36,10 +36,12 @@ const Style = styled.div`
    .g-bg {
      background: #fff;
    }
-
-   .card-img-top {
+   @media screen and (max-width: 375px){
+    .card-img-top {
      padding: 0;
    }
+   }
+   
 `
 
 function Guide() {
